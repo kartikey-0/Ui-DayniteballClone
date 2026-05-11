@@ -9,19 +9,21 @@ A front-end clone of the Daynite Cricket Tennis Ball website built for UI practi
 ```
 UI-DAYNITEBALLCLONE/
 │
-├── daynite.html          # Home page
-├── daynitestyle.css      # Home page styles
-├── about.html            # About Us page
-├── about.css
-├── about.js              # Counter animation for stats
-├── blog.html             # Blog page
-├── blog.css
-├── contactus.html        # Contact page with form and map
-├── contactus.css
-├── sponsorship.html      # Sponsorship form page
-├── sponsorship.css
-├── daynite.js            # Shared JS (hamburger menu toggle)
-├── Media/                # Images and assets
+├── src/
+│   ├── daynite.html          # Home page
+│   ├── daynitestyle.css      # Home page styles
+│   ├── about.html            # About Us page
+│   ├── about.css
+│   ├── about.js              # Counter animation for stats
+│   ├── blog.html             # Blog page
+│   ├── blog.css
+│   ├── contactus.html        # Contact page with form and map
+│   ├── contactus.css
+│   ├── sponsorship.html      # Sponsorship form page
+│   ├── sponsorship.css
+│   └── daynite.js            # Shared JS (hamburger menu toggle)
+│
+├── assets/                   # Images, logo, favicon
 └── README.md
 ```
 
