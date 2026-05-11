@@ -5,23 +5,25 @@
     text-decoration: none;
     font-family: Arial, sans-serif;
 }
-body{
-   background-color: white;
+
+body {
+    background-color: white;
 }
 
-h1{
+h1 {
     background-color: rgb(228, 125, 125);
     border: 1px solid aqua;
     background-image: url("../assets/daynite-5-1536x768.jpg");
     background-size: cover;
-        align-items: center;    
-          
+    align-items: center;
+
     width: 100%;
     padding: 200rem;
-    
-    
+
+
     box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5)
 }
+
 .navbar {
     background: rgb(255, 255, 255);
     height: 102px;
@@ -34,11 +36,11 @@ h1{
 }
 
 .logo {
-    width: 78px; 
+    width: 78px;
     height: 100px;
     background-image: url("../assets/logo.jpg");
     background-size: contain;
-     padding:0 100px;
+    padding: 0 100px;
     background-repeat: no-repeat;
     display: block;
 }
@@ -73,6 +75,7 @@ h1{
     cursor: pointer;
     color: black;
 }
+
 .sidebar {
     position: fixed;
     top: 0;
@@ -101,7 +104,7 @@ h1{
     text-decoration: none;
     color: rgb(77, 73, 73);
     font-size: 15px;
-    
+
 }
 
 
@@ -119,6 +122,7 @@ h1{
     .navbar-links {
         display: none;
     }
+
     .menu-toggle {
         display: block;
     }
@@ -126,60 +130,71 @@ h1{
 
 /*body*/
 /*data1*/
-.space{
+.space {
     padding-top: 55px;
 }
+
 .Sponsorships {
     padding-left: 100px;
     font-style: italic;
     font-weight: 600;
     font-size: 27px;
     color: #E5252D;
-    }
-    .alldata{
-        display: flex;
-        gap: 0.8rem;
+}
 
-    }
-    .text p{
-        font-size: 16px;
-        font-weight: 300;
-        color: rgb(114, 111, 111);
-        line-height: 1.5;
-        margin-left: 6rem;
-    }
-    .image{
-        background-image: url("../assets/Sponsor.jpg.webp"); 
-        width: 500px; 
-        height: 300px; 
-        background-size: cover;
-        background-position: center;
-        margin-left: 9rem;
-    }
-    /*data2*/
-    .vl {
-     
+.alldata {
+    display: flex;
+    gap: 0.8rem;
+
+}
+
+.text p {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(114, 111, 111);
+    line-height: 1.5;
+    margin-left: 6rem;
+}
+
+.image {
+    background-image: url("../assets/Sponsor.jpg.webp");
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 9rem;
+}
+
+/*data2*/
+.vl {
+
     border-left: 1px solid #E5252D;
-        height: 843px;
-      }
-      /*data3*/
-      .data3{
-        padding-top: 1.2rem;
-      }
-      .Contact{
-        padding: 20px;
-      }
-      input[type="text"],input[type="number"]{
-    width:60%;
+    height: 843px;
+}
+
+/*data3*/
+.data3 {
+    padding-top: 1.2rem;
+}
+
+.Contact {
+    padding: 20px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 60%;
     padding: 8px;
     height: 2.8rem;
     margin-top: 0.6rem;
     border: 1px solid #ccc;
     border-radius: 3px;
 }
-#first,#last{
+
+#first,
+#last {
     width: 29%;
-    border:1px solid #ccc; 
+    border: 1px solid #ccc;
 }
 
 .required {
@@ -195,58 +210,71 @@ h1{
     border: 1px solid #ccc;
     border-radius: 3px;
     margin-top: 0.9rem;
-    resize: vertical; /* Allows vertical resizing */
+    resize: vertical;
 }
 
-#comment:hover, #comment:focus {
-    border: 2px solid #007BFF; /* Blue Border */
+#comment:hover,
+#comment:focus {
+    border: 2px solid #007BFF;
     outline: none;
 }
 
 button {
-    background-color: #0273eb; 
-    color: white; 
+    background-color: #0273eb;
+    color: white;
     border: none;
     padding: 10px 14px;
     font-size: 14px;
     margin-top: 2rem;
     font-weight: bold;
     cursor: pointer;
-    border-radius: 3px; 
+    border-radius: 3px;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 button:hover {
-    background-color: #034a96; 
-    transform: scale(1.05); 
+    background-color: #034a96;
+    transform: scale(1.05);
 }
-.Name,.Event-Name,.Contact-Number,.Sponsorship-Amount,.Event-date,.Comment,.Email{
+
+.Name,
+.Event-Name,
+.Contact-Number,
+.Sponsorship-Amount,
+.Event-date,
+.Comment,
+.Email {
     margin-top: 0.9rem;
-    color:black;
+    color: black;
     font-weight: 700;
-    font-size:14px;
+    font-size: 14px;
 }
-input[type="text"]:hover, input[type="number"]:hover,
-input[type="text"]:focus, input[type="number"]:focus
- {
-    border: 2px solid #0155af; /* Blue Border */
+
+input[type="text"]:hover,
+input[type="number"]:hover,
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border: 2px solid #0155af;
     outline: none;
 }
-#first:hover, #first:focus,
-#last:hover, #last:focus{
-    border: 2px solid #0155af; /* Blue Border */
+
+#first:hover,
+#first:focus,
+#last:hover,
+#last:focus {
+    border: 2px solid #0155af;
     outline: none;
 }
 
 /*footer*/
 footer {
-    background-color: #0c1b2d; /* Dark blue background */
+    background-color: #0c1b2d;
     color: white;
     /* padding: 10px; */
     text-align: auto;
     padding-top: 30px;
     width: 100%;
-    
+
 }
 
 .footer-container {
@@ -268,13 +296,14 @@ footer {
     font-weight: 700%;
 }
 
-.footer-section p, .footer-section ul {
+.footer-section p,
+.footer-section ul {
     font-size: 15px;
     line-height: 1.8;
     margin: 0;
     padding: 0;
     font-weight: 400%;
-    color: white; /* Light gray text */
+    color: white;
 }
 
 .footer-section ul {
@@ -284,48 +313,52 @@ footer {
 
 .footer-section ul li {
     margin: 8px 0;
-   
+
 }
+
 .footer-section ul li::marker {
     font-weight: bold;
 
 }
 
 .footer-section ul li a {
-    color:white;
+    color: white;
     text-decoration: none;
     transition: color 0.3s ease;
-    
+
 }
 
 .link-yellow ul li {
-    transition: color 0.3s ease; /* Smooth transition */
+    transition: color 0.3s ease;
 }
 
 
 .link-yellow ul li a {
     text-decoration: none;
-    color: rgb(252, 252, 252); 
+    color: rgb(252, 252, 252);
     transition: color 0.3s ease;
-   
+
 }
+
 .footer-section ul li a:hover {
     color: yellow;
 }
+
 .footer-bottom {
     width: 100%;
     text-align: center;
     margin-top: 40px;
-    background-color: #ffffff; 
-    padding-top: 85px; 
+    background-color: #ffffff;
+    padding-top: 85px;
     color: #4b4848;
 }
+
 .footer-bottom a {
     color: #046bd2;
     font-weight: 200%;
     text-decoration: none;
 }
-.footer-bottom p{
-   margin-top: -70px;
-}
 
+.footer-bottom p {
+    margin-top: -70px;
+}
